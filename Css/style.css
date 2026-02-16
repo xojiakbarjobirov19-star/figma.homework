@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(47, 3, 47);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.intro-text {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background: rgb(100, 37, 89);
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+}
+
+
+.card-image {
+  margin-left: 105px;
+  font-size: 13px;
+  padding-top: 15px;
+}
+
+
+
+.card-content {
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 17px;
+    color: #f4ebeb;
+    margin-bottom: 10px;
+    font-weight: 600px;
+}
+
+.card-content p {
+    color: #f6f6f6;
+    font-size: 13px;
+    margin-bottom: 15px;
+ 
+}
+
+.card-link {
+    color: #efe3e3;
+    font-weight: 500px;
+    font-size: 13px;
+    align-self: center;
+}
+
+
+.card-2-1 {
+    width: 270px;
+height: 266px;
+justify-content: start;
+border-radius: 34px;
+border-width: 1px;
+position: relative;
+background-color: rgb(100, 37, 89);
+}
+
+.img-2{
+width: 90.64193057034086px;
+height: 89.15599915838312px;
+margin-left: 85px;
+margin-top: 32px;
+border-radius: 54.21px;
+border-width: 3px;
+position: absolute;
+}
+
+h3 {
+    width: 155px;
+height: 36px;
+margin-top: 135px;
+margin-left: 80px;
+position: absolute;
+color: #FFFFFF;
+
+}
+
+.p-2 {
+    width: 155px;
+height: 36px;
+margin-left: 65px;
+margin-top: 165px;
+position: absolute;
+color: #FFFFFF;
+}
+
+
+.img-3 {
+    width: 108px;
+height: 18px;
+margin-top: 200px;
+margin-left: 75px;
+}
+
+.card-2-2 {
+    width: 270px;
+height: 266px;
+border-radius: 34px;
+left: 480px;
+top: 1040px;
+position: absolute;
+background-color: rgb(100, 37, 89);
+}
+
+
+.card-2-3 {
+width: 270px;
+height: 266px;
+border-radius: 34px;
+left: 760px;
+top: 1040px;
+position: absolute;
+background-color: rgb(100, 37, 89);
+}
+
+.p-3 {
+width: 197px;
+height: 21px;
+top: 165px;
+left: 52px;
+position: absolute;
+color: #FFFFFF;
+}
+
+.card-2-4 {
+ width: 270px;
+height: 266px;
+border-radius: 34px;
+left: 1060px;
+top: 1040px;
+position: absolute;
+background-color: rgb(100, 37, 89); 
+}
+
+
+.site-header{
+width: 1170px;
+height: 42px;
+margin-top: 40px;
+margin-left: 10px;
+padding: 20px;
+}
+
+.site-header-wrapper {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+
+.container {
+  width:100% ;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.header-img {
+width: 96px;
+height: 34.2506217956543px;
+margin-top: 30px;
+justify-content: start;
+}
+
+.site-header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: #FFFFFF;
+}
+
+.header-button {
+ width: 132;
+height: 42;
+top: 40px;
+left: 1173px;
+border-radius: 5px;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 24px;
+background-color: #2563EB;
+border: 0cap;
+color: #FFFFFF;
+gap: 10px;
+}
+
+.h1-5 {
+width: 546px;
+height: 168px;
+margin-top: 190px;
+font-size: 45px;
+display: flex;
+color: #ba07d5;
+position: absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-4 {
+width: 746px;
+height: 746px;
+align-items: center;
+left: 673px;
+position: absolute;
+}
+
+.p-4 {
+width: 534px;
+height: 59px;
+padding-top: 320px;
+justify-content: start;
+color: #E5E7EB;
+position: absolute;
+font-size: 15px;
+}
+
+
+.site-btn {
+width: 135px;
+height: 61px;
+margin-top: 407px;
+left: 132px;
+border-radius: 6px;
+justify-content: center;
+gap: 10px;
+background-color: #2563EB;
+color: #FFFFFF;
+border: 0cap;
+}
+
+
+.site-img {
+width: 151px;
+height: 36px;
+margin-top: 420px;
+margin-left: 76px;
+position: absolute;
+}
+
+
+@media (max-width 700px)
+ {
+ .xxx
+}
